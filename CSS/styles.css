@@ -1,0 +1,104 @@
+
+body {
+    font-family: sans-serif;
+}
+
+hr {
+    background-color: white;
+    border: 5px dotted #343A40;
+    border-bottom: none;
+    width: 4%;
+    margin: 4% auto;
+}
+/* !HOME! */
+
+
+/* Nav bar */
+.navbar-brand {
+    padding: 0 5%;
+}
+
+/* Title */
+.title {
+    background-color: #343A40;
+    color:#fff;
+    font-family: sans-serif;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    left: 50%;
+    top: 40%;
+}
+.title-text {
+    font-size: 1.5rem;
+    font-weight: 100;
+    position: relative;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    line-height: 1.5;
+}
+.title-text-bold {
+    font-size: 3.5rem;
+    font-weight: 200;
+    position: relative;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    line-height: 1.5;
+}
+
+.title-text-bold-name {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+/* About me */
+
+.profile-image {
+    width: 15%;
+    margin-top: 10%;
+}
+.about-me-div {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+.about-me-title {
+  margin: 3%;
+}
+
+.about-me-body {
+    width: 50%;
+    margin: auto;
+    line-height: 2rem;
+    margin-bottom: 10%;
+}
+
+/* Contact Me */
+
+.contact-me-div {
+    text-align: center;
+    height:60vh;
+    width: 100vw; 
+    margin-top:10%;
+
+}
+.contact-title {
+    text-align: center;
+}
+
+.contact-body {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    line-height: 2rem;
+}
+.footer {
+    text-align: center;
+    height: 200px;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+/* https://themesboss.com/elvish/index_2.html */
